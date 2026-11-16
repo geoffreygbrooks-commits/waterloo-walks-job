@@ -1,0 +1,25 @@
+name: Daily walks build
+on:
+  schedule:
+    - cron: "0 6 * * *"   # 06:00 UTC daily
+  workflow_dispatch: {}
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install osmium
+        run: sudo apt-get update && sudo apt-get install -y osmium-tool
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Build walks files
+        run: python scripts/build_walks.py
+      - name: Commit changes
+        run: |
+          git config user.name "walks-bot"
+          git config user.email "walks-bot@users.noreply.github.com"
+          git add data/walks
+          git diff --cached --quiet || (git commit -m "Daily walks build" && git push)

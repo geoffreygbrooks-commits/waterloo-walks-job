@@ -1,0 +1,3862 @@
+{
+ "source": "Network Rail SCHEDULE (full extract) and CORPUS, open data",
+ "date": "2026-11-16",
+ "origins": {
+  "London Waterloo": "WATRLMN",
+  "Waterloo East": "WLOE"
+ },
+ "note": "Direct calls after Waterloo or Waterloo East on a single weekday. Journey times are the fastest scheduled time in the extract, not a guarantee.",
+ "station_count": 292,
+ "schedules_scanned": 2140,
+ "stations": [
+  {
+   "crs": "ABW",
+   "name": "Abbey Wood",
+   "trains_on_day": 2,
+   "fastest_minutes": 56,
+   "operators": [
+    "SE"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "ambiguous"
+  },
+  {
+   "crs": "ASN",
+   "name": "Addlestone",
+   "trains_on_day": 37,
+   "fastest_minutes": 71,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.37304566372,
+   "lon": -0.48445671716,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "AYP",
+   "name": "Albany Park",
+   "trains_on_day": 79,
+   "fastest_minutes": 29,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.43545265496,
+   "lon": 0.12573715609,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "AHT",
+   "name": "Aldershot",
+   "trains_on_day": 34,
+   "fastest_minutes": 42,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.24641837711,
+   "lon": -0.75985979888,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "XEW",
+   "name": "Allbrook",
+   "trains_on_day": 93,
+   "fastest_minutes": null,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "AON",
+   "name": "Alton",
+   "trains_on_day": 31,
+   "fastest_minutes": 64,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.15196879112,
+   "lon": -0.96691319996,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ADV",
+   "name": "Andover",
+   "trains_on_day": 55,
+   "fastest_minutes": 63,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.21154688023,
+   "lon": -1.49223291317,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ACT",
+   "name": "Ascot",
+   "trains_on_day": 41,
+   "fastest_minutes": 52,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.40624365202,
+   "lon": -0.6758331694,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "AHV",
+   "name": "Ash Vale",
+   "trains_on_day": 34,
+   "fastest_minutes": 37,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.2722469404,
+   "lon": -0.72164850871,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "AFK",
+   "name": "Ashford (Kent)",
+   "trains_on_day": 41,
+   "fastest_minutes": 74,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.43650719705,
+   "lon": -0.46807091587,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "AFS",
+   "name": "Ashford (Middlesex)",
+   "trains_on_day": 78,
+   "fastest_minutes": 33,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.43650719705,
+   "lon": -0.46807091587,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "AHD",
+   "name": "Ashtead",
+   "trains_on_day": 41,
+   "fastest_minutes": 37,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.31787379401,
+   "lon": -0.30757168547,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ANF",
+   "name": "Ashurst New Forest",
+   "trains_on_day": 6,
+   "fastest_minutes": 88,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.88985037948,
+   "lon": -1.52663069321,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "AXM",
+   "name": "Axminster",
+   "trains_on_day": 21,
+   "fastest_minutes": 158,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.77927120095,
+   "lon": -3.00472309727,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BAG",
+   "name": "Bagshot",
+   "trains_on_day": 2,
+   "fastest_minutes": 62,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.36436751968,
+   "lon": -0.68866191091,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BNH",
+   "name": "Barnehurst",
+   "trains_on_day": 36,
+   "fastest_minutes": 36,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.46495912931,
+   "lon": 0.15964630799,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BNS",
+   "name": "Barnes",
+   "trains_on_day": 278,
+   "fastest_minutes": 16,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.46708608626,
+   "lon": -0.24216421148,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BNI",
+   "name": "Barnes Bridge",
+   "trains_on_day": 73,
+   "fastest_minutes": 21,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.47200852133,
+   "lon": -0.25263015589,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BSK",
+   "name": "Basingstoke",
+   "trains_on_day": 180,
+   "fastest_minutes": 40,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.26835691303,
+   "lon": -1.08726371896,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BAT",
+   "name": "Battle",
+   "trains_on_day": 33,
+   "fastest_minutes": 75,
+   "operators": [
+    "SE"
+   ],
+   "lat": 50.91291557408,
+   "lon": 0.49470289462,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BSD",
+   "name": "Bearsted",
+   "trains_on_day": 6,
+   "fastest_minutes": 64,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.27582146224,
+   "lon": 0.57758048241,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BEU",
+   "name": "Beaulieu Road",
+   "trains_on_day": 2,
+   "fastest_minutes": 103,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.8550485949,
+   "lon": -1.50474946667,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BDH",
+   "name": "Bedhampton",
+   "trains_on_day": 26,
+   "fastest_minutes": 91,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.85395672389,
+   "lon": -0.99582833048,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BVD",
+   "name": "Belvedere",
+   "trains_on_day": 2,
+   "fastest_minutes": 53,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.49211820025,
+   "lon": 0.15228619059,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BTY",
+   "name": "Bentley",
+   "trains_on_day": 31,
+   "fastest_minutes": 55,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "ambiguous"
+  },
+  {
+   "crs": "BRS",
+   "name": "Berrylands",
+   "trains_on_day": 37,
+   "fastest_minutes": 24,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.39904518396,
+   "lon": -0.28071358953,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BXY",
+   "name": "Bexley",
+   "trains_on_day": 80,
+   "fastest_minutes": 32,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.44021947848,
+   "lon": 0.1479025861,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BXH",
+   "name": "Bexleyheath",
+   "trains_on_day": 33,
+   "fastest_minutes": 33,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.4635001507,
+   "lon": 0.13373496165,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BKH",
+   "name": "Blackheath",
+   "trains_on_day": 35,
+   "fastest_minutes": 16,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.46579624108,
+   "lon": 0.00887195566,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BKA",
+   "name": "Bookham",
+   "trains_on_day": 21,
+   "fastest_minutes": 46,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.28873865847,
+   "lon": -0.38402060641,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BRG",
+   "name": "Borough Green & Wrotham",
+   "trains_on_day": 22,
+   "fastest_minutes": 43,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.29321924328,
+   "lon": 0.30624506129,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BOE",
+   "name": "Botley",
+   "trains_on_day": 17,
+   "fastest_minutes": 91,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.91645426939,
+   "lon": -1.25923637574,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BMH",
+   "name": "Bournemouth",
+   "trains_on_day": 69,
+   "fastest_minutes": 104,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.72727332144,
+   "lon": -1.86450294675,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BXW",
+   "name": "Box Hill & Westhumble",
+   "trains_on_day": 20,
+   "fastest_minutes": 47,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.25401185327,
+   "lon": -0.32848987487,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BCE",
+   "name": "Bracknell",
+   "trains_on_day": 39,
+   "fastest_minutes": 60,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.41309188829,
+   "lon": -0.75170356103,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BSM",
+   "name": "Branksome",
+   "trains_on_day": 62,
+   "fastest_minutes": 111,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.72696460406,
+   "lon": -1.91975819978,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BFD",
+   "name": "Brentford",
+   "trains_on_day": 75,
+   "fastest_minutes": 29,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.48754690635,
+   "lon": -0.30965091793,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BCU",
+   "name": "Brockenhurst",
+   "trains_on_day": 69,
+   "fastest_minutes": 89,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.81684095229,
+   "lon": -1.57353100271,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BMS",
+   "name": "Bromley South",
+   "trains_on_day": 3,
+   "fastest_minutes": 33,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.39997631561,
+   "lon": 0.01734411348,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BKO",
+   "name": "Brookwood",
+   "trains_on_day": 62,
+   "fastest_minutes": 30,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.30375792694,
+   "lon": -0.63574781605,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BRU",
+   "name": "Bruton",
+   "trains_on_day": 3,
+   "fastest_minutes": 160,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.11163892514,
+   "lon": -2.44707347109,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "BFN",
+   "name": "Byfleet & New Haw",
+   "trains_on_day": 108,
+   "fastest_minutes": 33,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.34979664729,
+   "lon": -0.48138968791,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CAM",
+   "name": "Camberley",
+   "trains_on_day": 2,
+   "fastest_minutes": 68,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.33632761671,
+   "lon": -0.74427163142,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CST",
+   "name": "Cannon Street London",
+   "trains_on_day": 2,
+   "fastest_minutes": 92,
+   "operators": [
+    "SE"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "CBW",
+   "name": "Canterbury West",
+   "trains_on_day": 15,
+   "fastest_minutes": 101,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.28426933502,
+   "lon": 1.07530326787,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CLC",
+   "name": "Castle Cary",
+   "trains_on_day": 3,
+   "fastest_minutes": 166,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.09981478666,
+   "lon": -2.52279433401,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CFB",
+   "name": "Catford Bridge",
+   "trains_on_day": 73,
+   "fastest_minutes": 16,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.44474073785,
+   "lon": -0.02479109322,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CHG",
+   "name": "Charing",
+   "trains_on_day": 6,
+   "fastest_minutes": 81,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.208099312,
+   "lon": 0.79033127776,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CHX",
+   "name": "Charing Cross London",
+   "trains_on_day": 344,
+   "fastest_minutes": 3,
+   "operators": [
+    "SE"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "CTN",
+   "name": "Charlton",
+   "trains_on_day": 2,
+   "fastest_minutes": 68,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.48681328818,
+   "lon": 0.03125757663,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CRT",
+   "name": "Chartham",
+   "trains_on_day": 15,
+   "fastest_minutes": 96,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.25726586754,
+   "lon": 1.01803940064,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CTM",
+   "name": "Chatham",
+   "trains_on_day": 1,
+   "fastest_minutes": 78,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.3803785894,
+   "lon": 0.52115082745,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CLD",
+   "name": "Chelsfield",
+   "trains_on_day": 41,
+   "fastest_minutes": 25,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.35625593713,
+   "lon": 0.10906990391,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CHY",
+   "name": "Chertsey",
+   "trains_on_day": 42,
+   "fastest_minutes": 68,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.38706885905,
+   "lon": -0.509316546,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CSN",
+   "name": "Chessington North",
+   "trains_on_day": 34,
+   "fastest_minutes": 31,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.36404106497,
+   "lon": -0.30069905976,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CSS",
+   "name": "Chessington South",
+   "trains_on_day": 34,
+   "fastest_minutes": 34,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.35655031448,
+   "lon": -0.30815749596,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CIL",
+   "name": "Chilham",
+   "trains_on_day": 15,
+   "fastest_minutes": 93,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.24461104667,
+   "lon": 0.97589572012,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CIT",
+   "name": "Chislehurst",
+   "trains_on_day": 161,
+   "fastest_minutes": 25,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.40555654436,
+   "lon": 0.05741805551,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CHK",
+   "name": "Chiswick",
+   "trains_on_day": 73,
+   "fastest_minutes": 24,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.4811366163,
+   "lon": -0.26783512786,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CHR",
+   "name": "Christchurch",
+   "trains_on_day": 27,
+   "fastest_minutes": 108,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.73821415639,
+   "lon": -1.78454594311,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CLA",
+   "name": "Clandon",
+   "trains_on_day": 56,
+   "fastest_minutes": 51,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.26400525735,
+   "lon": -0.5027660291,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CLG",
+   "name": "Claygate",
+   "trains_on_day": 37,
+   "fastest_minutes": 30,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.36121401224,
+   "lon": -0.34824771704,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CLK",
+   "name": "Clock House",
+   "trains_on_day": 70,
+   "fastest_minutes": 25,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.40858641363,
+   "lon": -0.04065698193,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CSD",
+   "name": "Cobham And Stoke D'Abernon",
+   "trains_on_day": 37,
+   "fastest_minutes": 37,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.31810073777,
+   "lon": -0.38934629501,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CSA",
+   "name": "Cosham",
+   "trains_on_day": 20,
+   "fastest_minutes": 110,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.84192411568,
+   "lon": -1.06732868373,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CBK",
+   "name": "Cranbrook",
+   "trains_on_day": 17,
+   "fastest_minutes": 186,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.75009135488,
+   "lon": -3.42041535097,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CRY",
+   "name": "Crayford",
+   "trains_on_day": 84,
+   "fastest_minutes": 36,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.44827990654,
+   "lon": 0.17893616876,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CKN",
+   "name": "Crewkerne",
+   "trains_on_day": 21,
+   "fastest_minutes": 147,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.87353559101,
+   "lon": -2.77849601518,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "CWU",
+   "name": "Crowhurst",
+   "trains_on_day": 23,
+   "fastest_minutes": 85,
+   "operators": [
+    "SE"
+   ],
+   "lat": 50.88857934933,
+   "lon": 0.50133662835,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "DFD",
+   "name": "Dartford",
+   "trains_on_day": 112,
+   "fastest_minutes": 35,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.44737067823,
+   "lon": 0.21924789083,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "DAT",
+   "name": "Datchet",
+   "trains_on_day": 39,
+   "fastest_minutes": 49,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.48307686772,
+   "lon": -0.57942182848,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "DEA",
+   "name": "Deal",
+   "trains_on_day": 6,
+   "fastest_minutes": 130,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.22304452702,
+   "lon": 1.39884701484,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "DEP",
+   "name": "Deptford",
+   "trains_on_day": 2,
+   "fastest_minutes": 78,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.4788480269,
+   "lon": -0.02627013065,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "DCH",
+   "name": "Dorchester South",
+   "trains_on_day": 58,
+   "fastest_minutes": 150,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.70929190238,
+   "lon": -2.43724268083,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "DKG",
+   "name": "Dorking",
+   "trains_on_day": 22,
+   "fastest_minutes": 36,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.24092983866,
+   "lon": -0.324250704,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "DVP",
+   "name": "Dover Priory",
+   "trains_on_day": 20,
+   "fastest_minutes": 108,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.12570052279,
+   "lon": 1.30529371233,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "DNG",
+   "name": "Dunton Green",
+   "trains_on_day": 39,
+   "fastest_minutes": 49,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.29649025867,
+   "lon": 0.17093720894,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "EAR",
+   "name": "Earley",
+   "trains_on_day": 38,
+   "fastest_minutes": 77,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.44109996027,
+   "lon": -0.91798814407,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "EAD",
+   "name": "Earlsfield",
+   "trains_on_day": 267,
+   "fastest_minutes": 12,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.44233697017,
+   "lon": -0.18771485554,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ZPU",
+   "name": "East Putney",
+   "trains_on_day": 8,
+   "fastest_minutes": 11,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "ESL",
+   "name": "Eastleigh",
+   "trains_on_day": 93,
+   "fastest_minutes": 70,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.96925016601,
+   "lon": -1.35008445334,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "EDN",
+   "name": "Eden Park",
+   "trains_on_day": 70,
+   "fastest_minutes": 32,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.39009103117,
+   "lon": -0.02635507689,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "EGH",
+   "name": "Egham",
+   "trains_on_day": 78,
+   "fastest_minutes": 39,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.42964677435,
+   "lon": -0.54651215234,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ELE",
+   "name": "Elmers End",
+   "trains_on_day": 72,
+   "fastest_minutes": 28,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.39849235029,
+   "lon": -0.04957026642,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ESD",
+   "name": "Elmstead Woods",
+   "trains_on_day": 43,
+   "fastest_minutes": 22,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.41711760416,
+   "lon": 0.04427414538,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ELW",
+   "name": "Eltham",
+   "trains_on_day": 35,
+   "fastest_minutes": 23,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.45564352415,
+   "lon": 0.05247241766,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "EPS",
+   "name": "Epsom",
+   "trains_on_day": 44,
+   "fastest_minutes": 25,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.33439273045,
+   "lon": -0.26877760216,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ERH",
+   "name": "Erith",
+   "trains_on_day": 2,
+   "fastest_minutes": 50,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.48167092798,
+   "lon": 0.17505454186,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ESH",
+   "name": "Esher",
+   "trains_on_day": 41,
+   "fastest_minutes": 19,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.3798911037,
+   "lon": -0.35333776011,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ETC",
+   "name": "Etchingham",
+   "trains_on_day": 28,
+   "fastest_minutes": 68,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.01054616552,
+   "lon": 0.44235637924,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "EWW",
+   "name": "Ewell West",
+   "trains_on_day": 41,
+   "fastest_minutes": 28,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.35004486032,
+   "lon": -0.25698654147,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "EXC",
+   "name": "Exeter Central",
+   "trains_on_day": 21,
+   "fastest_minutes": 193,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.72648416524,
+   "lon": -3.5332764081,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "EXD",
+   "name": "Exeter St Davids",
+   "trains_on_day": 21,
+   "fastest_minutes": 199,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.72927488396,
+   "lon": -3.54328617686,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FCN",
+   "name": "Falconwood",
+   "trains_on_day": 33,
+   "fastest_minutes": 27,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.45915447314,
+   "lon": 0.07930456484,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FRM",
+   "name": "Fareham",
+   "trains_on_day": 20,
+   "fastest_minutes": 99,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.85303359642,
+   "lon": -1.19203711934,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FNB",
+   "name": "Farnborough (Main)",
+   "trains_on_day": 180,
+   "fastest_minutes": 34,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.29669220491,
+   "lon": -0.75543642474,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FNC",
+   "name": "Farncombe",
+   "trains_on_day": 59,
+   "fastest_minutes": 38,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.19715384603,
+   "lon": -0.60454879566,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FNH",
+   "name": "Farnham",
+   "trains_on_day": 31,
+   "fastest_minutes": 48,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.21190464302,
+   "lon": -0.79242710526,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FEL",
+   "name": "Feltham",
+   "trains_on_day": 122,
+   "fastest_minutes": 27,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.44789837785,
+   "lon": -0.40983816198,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FNT",
+   "name": "Feniton",
+   "trains_on_day": 21,
+   "fastest_minutes": 179,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.78667690633,
+   "lon": -3.28541770355,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FLE",
+   "name": "Fleet",
+   "trains_on_day": 52,
+   "fastest_minutes": 39,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.29063481118,
+   "lon": -0.83080560384,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FKC",
+   "name": "Folkestone Central",
+   "trains_on_day": 20,
+   "fastest_minutes": 96,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.08288758211,
+   "lon": 1.16948247946,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FKW",
+   "name": "Folkestone West",
+   "trains_on_day": 19,
+   "fastest_minutes": 93,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.08458655955,
+   "lon": 1.15390351926,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FKE",
+   "name": "Folkstone East",
+   "trains_on_day": 20,
+   "fastest_minutes": 104,
+   "operators": [
+    "SE"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "FRT",
+   "name": "Frant",
+   "trains_on_day": 23,
+   "fastest_minutes": 54,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.104028706,
+   "lon": 0.29454314839,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FTN",
+   "name": "Fratton Portsmouth",
+   "trains_on_day": 63,
+   "fastest_minutes": 85,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "FML",
+   "name": "Frimley",
+   "trains_on_day": 2,
+   "fastest_minutes": 72,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.31186197413,
+   "lon": -0.74699127545,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FRO",
+   "name": "Frome",
+   "trains_on_day": 3,
+   "fastest_minutes": 138,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.22727050537,
+   "lon": -2.30999674896,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "FLW",
+   "name": "Fulwell",
+   "trains_on_day": 42,
+   "fastest_minutes": 31,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.43393511569,
+   "lon": -0.34946752918,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "GIL",
+   "name": "Gillingham (Dorset)",
+   "trains_on_day": 37,
+   "fastest_minutes": 113,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.03403440795,
+   "lon": -2.27262370413,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "qualifier"
+  },
+  {
+   "crs": "GLM",
+   "name": "Gillingham (Kent)",
+   "trains_on_day": 1,
+   "fastest_minutes": 84,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.38656545803,
+   "lon": 0.5498500996,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "qualifier"
+  },
+  {
+   "crs": "GOD",
+   "name": "Godalming",
+   "trains_on_day": 59,
+   "fastest_minutes": 39,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.18658662038,
+   "lon": -0.61886224833,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "GRT",
+   "name": "Grateley",
+   "trains_on_day": 54,
+   "fastest_minutes": 74,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.17005913816,
+   "lon": -1.62077365113,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "GRV",
+   "name": "Gravesend Central",
+   "trains_on_day": 39,
+   "fastest_minutes": 59,
+   "operators": [
+    "SE"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "GNH",
+   "name": "Greenhithe",
+   "trains_on_day": 39,
+   "fastest_minutes": 49,
+   "operators": [
+    "SE"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "GNW",
+   "name": "Greenwich",
+   "trains_on_day": 2,
+   "fastest_minutes": 76,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.47813505099,
+   "lon": -0.01333984329,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "GRP",
+   "name": "Grove Park",
+   "trains_on_day": 161,
+   "fastest_minutes": 18,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.43086312112,
+   "lon": 0.02172556684,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "GLD",
+   "name": "Guildford",
+   "trains_on_day": 121,
+   "fastest_minutes": 31,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.23697018947,
+   "lon": -0.58042495926,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HME",
+   "name": "Hamble",
+   "trains_on_day": 2,
+   "fastest_minutes": null,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.87137461464,
+   "lon": -1.32916202627,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HMP",
+   "name": "Hampton",
+   "trains_on_day": 40,
+   "fastest_minutes": 34,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.41593437713,
+   "lon": -0.37211888587,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HMC",
+   "name": "Hampton Court",
+   "trains_on_day": 38,
+   "fastest_minutes": 21,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.40255567035,
+   "lon": -0.34274765269,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HMW",
+   "name": "Hampton Wick",
+   "trains_on_day": 113,
+   "fastest_minutes": 28,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.4145244865,
+   "lon": -0.31248946079,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HAM",
+   "name": "Hamworthy",
+   "trains_on_day": 58,
+   "fastest_minutes": 123,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.72519184676,
+   "lon": -2.01935696282,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HRM",
+   "name": "Harrietsham",
+   "trains_on_day": 6,
+   "fastest_minutes": 72,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.24483286816,
+   "lon": 0.67239944635,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HSL",
+   "name": "Haslemere",
+   "trains_on_day": 59,
+   "fastest_minutes": 50,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.08864818959,
+   "lon": -0.71916256835,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HGS",
+   "name": "Hastings",
+   "trains_on_day": 33,
+   "fastest_minutes": 89,
+   "operators": [
+    "SE"
+   ],
+   "lat": 50.85789592878,
+   "lon": 0.57674190314,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HAV",
+   "name": "Havant",
+   "trains_on_day": 49,
+   "fastest_minutes": 76,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.85442708093,
+   "lon": -0.98161142439,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HYS",
+   "name": "Hayes (Kent)",
+   "trains_on_day": 72,
+   "fastest_minutes": 34,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.37633385065,
+   "lon": 0.01055679095,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HCN",
+   "name": "Headcorn",
+   "trains_on_day": 35,
+   "fastest_minutes": 62,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.16571425156,
+   "lon": 0.62748184535,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HDE",
+   "name": "Hedge End",
+   "trains_on_day": 17,
+   "fastest_minutes": 88,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.93231954226,
+   "lon": -1.29450331823,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HER",
+   "name": "Hersham",
+   "trains_on_day": 41,
+   "fastest_minutes": 23,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.37681204638,
+   "lon": -0.38995918597,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HIB",
+   "name": "High Brooms",
+   "trains_on_day": 56,
+   "fastest_minutes": 44,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.14940496266,
+   "lon": 0.27733229635,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HGM",
+   "name": "Higham",
+   "trains_on_day": 1,
+   "fastest_minutes": 65,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.42655911865,
+   "lon": 0.46627780763,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HLB",
+   "name": "Hildenborough",
+   "trains_on_day": 30,
+   "fastest_minutes": 37,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.2144861558,
+   "lon": 0.22758998859,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HLS",
+   "name": "Hilsea Portsmouth",
+   "trains_on_day": 40,
+   "fastest_minutes": 96,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "HYW",
+   "name": "Hinchley Wood",
+   "trains_on_day": 37,
+   "fastest_minutes": 28,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.37499827328,
+   "lon": -0.34052446259,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HNA",
+   "name": "Hinton Admiral",
+   "trains_on_day": 12,
+   "fastest_minutes": 110,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.75264004204,
+   "lon": -1.71412652195,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HGR",
+   "name": "Hither Green",
+   "trains_on_day": 251,
+   "fastest_minutes": 15,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.45202527723,
+   "lon": -0.00094416824,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HBN",
+   "name": "Hollingbourne",
+   "trains_on_day": 6,
+   "fastest_minutes": 68,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.26517892195,
+   "lon": 0.62784829448,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HOL",
+   "name": "Holton Heath",
+   "trains_on_day": 26,
+   "fastest_minutes": 127,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.71140854241,
+   "lon": -2.07784478,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HON",
+   "name": "Honiton",
+   "trains_on_day": 21,
+   "fastest_minutes": 173,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.79658114356,
+   "lon": -3.18671784748,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HOK",
+   "name": "Hook",
+   "trains_on_day": 32,
+   "fastest_minutes": 53,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.27999823769,
+   "lon": -0.96163570677,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HSY",
+   "name": "Horsley",
+   "trains_on_day": 56,
+   "fastest_minutes": 46,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.27934697957,
+   "lon": -0.43540859645,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "HOU",
+   "name": "Hounslow",
+   "trains_on_day": 76,
+   "fastest_minutes": 36,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.4619461273,
+   "lon": -0.3622768775,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ISL",
+   "name": "Isleworth",
+   "trains_on_day": 73,
+   "fastest_minutes": 33,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.47476282106,
+   "lon": -0.33690672602,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "KMP",
+   "name": "Kempton Park",
+   "trains_on_day": 19,
+   "fastest_minutes": 45,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.42098314755,
+   "lon": -0.40975125502,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "KPA",
+   "name": "Kensington Olympia",
+   "trains_on_day": 1,
+   "fastest_minutes": 222,
+   "operators": [
+    "ZZ"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "KWB",
+   "name": "Kew Bridge",
+   "trains_on_day": 75,
+   "fastest_minutes": 26,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.48951285815,
+   "lon": -0.28710755038,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "KDB",
+   "name": "Kidbrooke",
+   "trains_on_day": 33,
+   "fastest_minutes": 20,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.46212129606,
+   "lon": 0.02749762513,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "KNG",
+   "name": "Kingston Surrey",
+   "trains_on_day": 114,
+   "fastest_minutes": 26,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.41275124586,
+   "lon": -0.30116570895,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "name shortened"
+  },
+  {
+   "crs": "KCK",
+   "name": "Knockholt",
+   "trains_on_day": 39,
+   "fastest_minutes": 44,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.34578954727,
+   "lon": 0.13084714432,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "LAD",
+   "name": "Ladywell",
+   "trains_on_day": 73,
+   "fastest_minutes": 13,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.45624432445,
+   "lon": -0.01904061054,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "LHD",
+   "name": "Leatherhead",
+   "trains_on_day": 43,
+   "fastest_minutes": 40,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.29881781634,
+   "lon": -0.33323189889,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "LEE",
+   "name": "Lee",
+   "trains_on_day": 83,
+   "fastest_minutes": 19,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.44975481035,
+   "lon": 0.0134928748,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "LEN",
+   "name": "Lenham",
+   "trains_on_day": 6,
+   "fastest_minutes": 75,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.23448610412,
+   "lon": 0.70775911922,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "LEW",
+   "name": "Lewisham",
+   "trains_on_day": 153,
+   "fastest_minutes": 13,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.46569174072,
+   "lon": -0.01402433971,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "LIP",
+   "name": "Liphook",
+   "trains_on_day": 28,
+   "fastest_minutes": 60,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.0713162218,
+   "lon": -0.8002284029,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "LIS",
+   "name": "Liss",
+   "trains_on_day": 28,
+   "fastest_minutes": 67,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.04357107837,
+   "lon": -0.89286709515,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "LRD",
+   "name": "London Road Guildford",
+   "trains_on_day": 58,
+   "fastest_minutes": 56,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "LNG",
+   "name": "Longcross",
+   "trains_on_day": 20,
+   "fastest_minutes": 46,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.38517283832,
+   "lon": -0.59456992576,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "LSY",
+   "name": "Lower Sydenham",
+   "trains_on_day": 73,
+   "fastest_minutes": 19,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.42483076435,
+   "lon": -0.03334540405,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MDE",
+   "name": "Maidstone East",
+   "trains_on_day": 22,
+   "fastest_minutes": 58,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.27783011415,
+   "lon": 0.52129516596,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MAL",
+   "name": "Malden Manor",
+   "trains_on_day": 34,
+   "fastest_minutes": 26,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.38472999813,
+   "lon": -0.26127390591,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MRN",
+   "name": "Marden",
+   "trains_on_day": 35,
+   "fastest_minutes": 52,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.17517582788,
+   "lon": 0.49316935061,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MTM",
+   "name": "Martin Mill",
+   "trains_on_day": 6,
+   "fastest_minutes": 122,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.1706780015,
+   "lon": 1.3482171927,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MAO",
+   "name": "Martins Heron",
+   "trains_on_day": 39,
+   "fastest_minutes": 57,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.4074116544,
+   "lon": -0.724396598,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MZH",
+   "name": "Maze Hill",
+   "trains_on_day": 2,
+   "fastest_minutes": 73,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.48262465538,
+   "lon": 0.00291420855,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MIC",
+   "name": "Micheldever",
+   "trains_on_day": 94,
+   "fastest_minutes": 57,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.18239316309,
+   "lon": -1.26067767351,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MLF",
+   "name": "Milford",
+   "trains_on_day": 28,
+   "fastest_minutes": 46,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.16331927052,
+   "lon": -0.63694829854,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MSR",
+   "name": "Minster_(Thanet)",
+   "trains_on_day": 15,
+   "fastest_minutes": 117,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.32917430422,
+   "lon": 1.31721674026,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MTN",
+   "name": "Moreton (Dorset)",
+   "trains_on_day": 58,
+   "fastest_minutes": 146,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.70103073103,
+   "lon": -2.31344966512,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "qualifier"
+  },
+  {
+   "crs": "MTL",
+   "name": "Mortlake",
+   "trains_on_day": 107,
+   "fastest_minutes": 21,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.46808682788,
+   "lon": -0.26710557315,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MOT",
+   "name": "Motspur Park",
+   "trains_on_day": 79,
+   "fastest_minutes": 22,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.39519641359,
+   "lon": -0.23953069632,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "MTG",
+   "name": "Mottingham",
+   "trains_on_day": 78,
+   "fastest_minutes": 23,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.44021818624,
+   "lon": 0.05005403153,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "NTL",
+   "name": "Netley",
+   "trains_on_day": 2,
+   "fastest_minutes": 138,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.8749092475,
+   "lon": -1.34190280622,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "NBC",
+   "name": "New Beckenham",
+   "trains_on_day": 75,
+   "fastest_minutes": 22,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.41676962115,
+   "lon": -0.03527342593,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "NWX",
+   "name": "New Cross",
+   "trains_on_day": 361,
+   "fastest_minutes": null,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.47634362111,
+   "lon": -0.03242649769,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "NEH",
+   "name": "New Eltham",
+   "trains_on_day": 80,
+   "fastest_minutes": 22,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.43805962704,
+   "lon": 0.07053325309,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "NEM",
+   "name": "New Malden",
+   "trains_on_day": 497,
+   "fastest_minutes": 20,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.40407461689,
+   "lon": -0.25593955245,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "NWM",
+   "name": "New Milton",
+   "trains_on_day": 27,
+   "fastest_minutes": 100,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.75575287076,
+   "lon": -1.65781264824,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "NBT",
+   "name": "Norbiton",
+   "trains_on_day": 110,
+   "fastest_minutes": 23,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.41235765572,
+   "lon": -0.28402495282,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "NSH",
+   "name": "North Sheen",
+   "trains_on_day": 107,
+   "fastest_minutes": 23,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.46515468734,
+   "lon": -0.28787581322,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "NFL",
+   "name": "Northfleet",
+   "trains_on_day": 37,
+   "fastest_minutes": 55,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.44584634433,
+   "lon": 0.3243335694,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "ORP",
+   "name": "Orpington",
+   "trains_on_day": 139,
+   "fastest_minutes": 20,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.37329598213,
+   "lon": 0.08909054702,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "OTF",
+   "name": "Otford",
+   "trains_on_day": 22,
+   "fastest_minutes": 35,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.31315822273,
+   "lon": 0.19677880807,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "OVR",
+   "name": "Overton",
+   "trains_on_day": 55,
+   "fastest_minutes": 52,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.25429374676,
+   "lon": -1.25926757016,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "OXS",
+   "name": "Oxshott",
+   "trains_on_day": 37,
+   "fastest_minutes": 34,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.33639582016,
+   "lon": -0.36241924332,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PDW",
+   "name": "Paddock Wood",
+   "trains_on_day": 35,
+   "fastest_minutes": 46,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.18226680266,
+   "lon": 0.38914870228,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PKS",
+   "name": "Parkstone",
+   "trains_on_day": 48,
+   "fastest_minutes": 114,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.72297879921,
+   "lon": -1.94795647998,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PTR",
+   "name": "Petersfield",
+   "trains_on_day": 50,
+   "fastest_minutes": 62,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.00672632102,
+   "lon": -0.94113669019,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PET",
+   "name": "Petts Wood",
+   "trains_on_day": 43,
+   "fastest_minutes": 29,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.38861879473,
+   "lon": 0.07448093018,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PIN",
+   "name": "Pinhoe",
+   "trains_on_day": 21,
+   "fastest_minutes": 188,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.73778489347,
+   "lon": -3.46933293098,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PLC",
+   "name": "Pluckley",
+   "trains_on_day": 30,
+   "fastest_minutes": 69,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.15647301958,
+   "lon": 0.74739597705,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PLU",
+   "name": "Plumstead London",
+   "trains_on_day": 2,
+   "fastest_minutes": 59,
+   "operators": [
+    "SE"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "POK",
+   "name": "Pokesdown",
+   "trains_on_day": 27,
+   "fastest_minutes": 112,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.73108781649,
+   "lon": -1.82510204878,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "POO",
+   "name": "Poole",
+   "trains_on_day": 62,
+   "fastest_minutes": 117,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.71942804247,
+   "lon": -1.98331750258,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PTC",
+   "name": "Portchester",
+   "trains_on_day": 20,
+   "fastest_minutes": 105,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.84874977636,
+   "lon": -1.12423986778,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PMS",
+   "name": "Portsmouth & Southsea",
+   "trains_on_day": 63,
+   "fastest_minutes": 88,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.79849536053,
+   "lon": -1.09091100881,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PMH",
+   "name": "Portsmouth Harbour",
+   "trains_on_day": 56,
+   "fastest_minutes": 93,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.79696235778,
+   "lon": -1.10784017919,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "PUT",
+   "name": "Putney",
+   "trains_on_day": 227,
+   "fastest_minutes": 12,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.46130262948,
+   "lon": -0.21647453579,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "QRB",
+   "name": "Queenstown Road(Battersea)",
+   "trains_on_day": 306,
+   "fastest_minutes": 7,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.47496787553,
+   "lon": -0.14667813927,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "RAM",
+   "name": "Ramsgate",
+   "trains_on_day": 21,
+   "fastest_minutes": 128,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.34080451766,
+   "lon": 1.4064671553,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "RAY",
+   "name": "Raynes Park",
+   "trains_on_day": 302,
+   "fastest_minutes": 17,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.4091734404,
+   "lon": -0.2301507749,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "RDZ",
+   "name": "Reading Platforms 4A&B",
+   "trains_on_day": 38,
+   "fastest_minutes": 77,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "RDB",
+   "name": "Redbridge Hants",
+   "trains_on_day": 69,
+   "fastest_minutes": null,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "RMD",
+   "name": "Richmond",
+   "trains_on_day": 203,
+   "fastest_minutes": 17,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.46306062315,
+   "lon": -0.30155834819,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "RBR",
+   "name": "Robertsbridge",
+   "trains_on_day": 33,
+   "fastest_minutes": 72,
+   "operators": [
+    "SE"
+   ],
+   "lat": 50.98493334546,
+   "lon": 0.46878255182,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "RTR",
+   "name": "Rochester",
+   "trains_on_day": 1,
+   "fastest_minutes": 75,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.38965200015,
+   "lon": 0.50685493421,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "RLN",
+   "name": "Rowlands Castle",
+   "trains_on_day": 27,
+   "fastest_minutes": 82,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.89217230854,
+   "lon": -0.95747066297,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SAL",
+   "name": "Salisbury",
+   "trains_on_day": 54,
+   "fastest_minutes": 82,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.07054839622,
+   "lon": -1.80638673642,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SDG",
+   "name": "Sandling",
+   "trains_on_day": 19,
+   "fastest_minutes": 88,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.09037075198,
+   "lon": 1.06604289146,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SDW",
+   "name": "Sandwich",
+   "trains_on_day": 6,
+   "fastest_minutes": 136,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.26990372332,
+   "lon": 1.34256820363,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SEV",
+   "name": "Sevenoaks",
+   "trains_on_day": 131,
+   "fastest_minutes": 28,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.27686542327,
+   "lon": 0.18166901607,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SHW",
+   "name": "Shawford",
+   "trains_on_day": 14,
+   "fastest_minutes": 69,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.02212498649,
+   "lon": -1.3277737718,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SHP",
+   "name": "Shepperton",
+   "trains_on_day": 40,
+   "fastest_minutes": 44,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.39680477705,
+   "lon": -0.44678582905,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SHE",
+   "name": "Sherborne",
+   "trains_on_day": 36,
+   "fastest_minutes": 129,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.94402169786,
+   "lon": -2.5130732852,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SHO",
+   "name": "Sholing",
+   "trains_on_day": 2,
+   "fastest_minutes": null,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.89675361626,
+   "lon": -1.36491493968,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SRT",
+   "name": "Shortlands",
+   "trains_on_day": 3,
+   "fastest_minutes": null,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.4058007425,
+   "lon": 0.00178410685,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SID",
+   "name": "Sidcup",
+   "trains_on_day": 83,
+   "fastest_minutes": 25,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.43387014582,
+   "lon": 0.10379465578,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SGR",
+   "name": "Slade Green",
+   "trains_on_day": 2,
+   "fastest_minutes": 47,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.46778615322,
+   "lon": 0.19049143204,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SOA",
+   "name": "Southampton Airport (Parkway)",
+   "trains_on_day": 76,
+   "fastest_minutes": 65,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "SOU",
+   "name": "Southampton Central",
+   "trains_on_day": 76,
+   "fastest_minutes": 73,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.9074484476,
+   "lon": -1.41359587161,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SDN",
+   "name": "St Denys",
+   "trains_on_day": 78,
+   "fastest_minutes": 86,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.9221894338,
+   "lon": -1.38775913197,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SLQ",
+   "name": "St Leonards W S",
+   "trains_on_day": 33,
+   "fastest_minutes": 85,
+   "operators": [
+    "SE"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "SMG",
+   "name": "St Margarets (Greater London)",
+   "trains_on_day": 111,
+   "fastest_minutes": 28,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "ambiguous"
+  },
+  {
+   "crs": "SNS",
+   "name": "Staines",
+   "trains_on_day": 122,
+   "fastest_minutes": 34,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.43245541006,
+   "lon": -0.50316445308,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SPU",
+   "name": "Staplehurst",
+   "trains_on_day": 35,
+   "fastest_minutes": 56,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.17146743886,
+   "lon": 0.55043851131,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SOG",
+   "name": "Stonegate",
+   "trains_on_day": 23,
+   "fastest_minutes": 65,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.01996771555,
+   "lon": 0.36386821978,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SNL",
+   "name": "Stoneleigh",
+   "trains_on_day": 41,
+   "fastest_minutes": 25,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.36340065949,
+   "lon": -0.24866513765,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "STW",
+   "name": "Strawberry Hill",
+   "trains_on_day": 90,
+   "fastest_minutes": 27,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.43896297044,
+   "lon": -0.3393583891,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SOO",
+   "name": "Strood",
+   "trains_on_day": 1,
+   "fastest_minutes": 71,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.39654863669,
+   "lon": 0.50018750475,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "STU",
+   "name": "Sturry",
+   "trains_on_day": 15,
+   "fastest_minutes": 107,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.3010690617,
+   "lon": 1.12225540579,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SUU",
+   "name": "Sunbury",
+   "trains_on_day": 40,
+   "fastest_minutes": 38,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.41831319852,
+   "lon": -0.4177825994,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SNG",
+   "name": "Sunningdale",
+   "trains_on_day": 41,
+   "fastest_minutes": 48,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.39194041274,
+   "lon": -0.63304065179,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SNY",
+   "name": "Sunnymeads",
+   "trains_on_day": 39,
+   "fastest_minutes": 46,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.47028829885,
+   "lon": -0.5593741568,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SUR",
+   "name": "Surbiton",
+   "trains_on_day": 388,
+   "fastest_minutes": 14,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.39245968937,
+   "lon": -0.30395848399,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SAY",
+   "name": "Swanley",
+   "trains_on_day": 22,
+   "fastest_minutes": 26,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.39338681694,
+   "lon": 0.16922544124,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SWM",
+   "name": "Swanscombe",
+   "trains_on_day": 37,
+   "fastest_minutes": 53,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.44907051261,
+   "lon": 0.3095432837,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SNW",
+   "name": "Swanwick",
+   "trains_on_day": 2,
+   "fastest_minutes": 130,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.87566987438,
+   "lon": -1.265852382,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SWY",
+   "name": "Sway",
+   "trains_on_day": 12,
+   "fastest_minutes": 101,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.7847030484,
+   "lon": -1.60999574562,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SWG",
+   "name": "Swaythling",
+   "trains_on_day": 2,
+   "fastest_minutes": 101,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.94114842921,
+   "lon": -1.37640858762,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "SYL",
+   "name": "Syon Lane",
+   "trains_on_day": 73,
+   "fastest_minutes": 31,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.48178497092,
+   "lon": -0.3248418375,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "TED",
+   "name": "Teddington",
+   "trains_on_day": 115,
+   "fastest_minutes": 30,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.42448068252,
+   "lon": -0.33270591296,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "TMC",
+   "name": "Templecombe",
+   "trains_on_day": 36,
+   "fastest_minutes": 122,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.00150315584,
+   "lon": -2.41772466239,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "THD",
+   "name": "Thames Ditton",
+   "trains_on_day": 36,
+   "fastest_minutes": 34,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.38909701651,
+   "lon": -0.33915210939,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "THP",
+   "name": "Thanet Parkway",
+   "trains_on_day": 21,
+   "fastest_minutes": 121,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.330843,
+   "lon": 1.361777,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "TIS",
+   "name": "Tisbury",
+   "trains_on_day": 34,
+   "fastest_minutes": 101,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.06085300682,
+   "lon": -2.07900209367,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "TOL",
+   "name": "Tolworth",
+   "trains_on_day": 34,
+   "fastest_minutes": 28,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.37686022147,
+   "lon": -0.27946139195,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "TON",
+   "name": "Tonbridge",
+   "trains_on_day": 92,
+   "fastest_minutes": 37,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.19141126797,
+   "lon": 0.27097313924,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "TTN",
+   "name": "Totton",
+   "trains_on_day": 69,
+   "fastest_minutes": 83,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.91788117004,
+   "lon": -1.48241730657,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "TBW",
+   "name": "Tunbridge Wells",
+   "trains_on_day": 56,
+   "fastest_minutes": 48,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.13023394426,
+   "lon": 0.26281039988,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "TWI",
+   "name": "Twickenham",
+   "trains_on_day": 208,
+   "fastest_minutes": 21,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.45003116939,
+   "lon": -0.330393744,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "UPH",
+   "name": "Upper Halliford",
+   "trains_on_day": 29,
+   "fastest_minutes": 40,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.41306722823,
+   "lon": -0.43090571788,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "UPW",
+   "name": "Upwey",
+   "trains_on_day": 34,
+   "fastest_minutes": 161,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.64827169963,
+   "lon": -2.46613807169,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "VIR",
+   "name": "Virginia Water",
+   "trains_on_day": 83,
+   "fastest_minutes": 43,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.40180217067,
+   "lon": -0.56217376686,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WAD",
+   "name": "Wadhurst",
+   "trains_on_day": 33,
+   "fastest_minutes": 58,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.07346084279,
+   "lon": 0.31317360123,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WAM",
+   "name": "Walmer",
+   "trains_on_day": 5,
+   "fastest_minutes": 126,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.20332237784,
+   "lon": 1.38287452487,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WAL",
+   "name": "Walton-On-Thames",
+   "trains_on_day": 70,
+   "fastest_minutes": 23,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.37293107036,
+   "lon": -0.41463495928,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WNT",
+   "name": "Wandsworth Town",
+   "trains_on_day": 177,
+   "fastest_minutes": 10,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.46104779551,
+   "lon": -0.1881254027,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WRM",
+   "name": "Wareham",
+   "trains_on_day": 58,
+   "fastest_minutes": 131,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.69288849039,
+   "lon": -2.11524649721,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WMN",
+   "name": "Warminster",
+   "trains_on_day": 2,
+   "fastest_minutes": 113,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.2067765844,
+   "lon": -2.17673403563,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WLI",
+   "name": "Welling",
+   "trains_on_day": 33,
+   "fastest_minutes": 29,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.46479848086,
+   "lon": 0.10168964098,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WBP",
+   "name": "West Brompton",
+   "trains_on_day": 2,
+   "fastest_minutes": null,
+   "operators": [
+    "ZZ"
+   ],
+   "lat": 51.4870613526,
+   "lon": -0.19559256132,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WBY",
+   "name": "West Byfleet",
+   "trains_on_day": 64,
+   "fastest_minutes": 25,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.33922574246,
+   "lon": -0.50548514862,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WMA",
+   "name": "West Malling",
+   "trains_on_day": 22,
+   "fastest_minutes": 50,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.29202073047,
+   "lon": 0.418653358,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WLD",
+   "name": "West St Leonards",
+   "trains_on_day": 24,
+   "fastest_minutes": 83,
+   "operators": [
+    "SE"
+   ],
+   "lat": 50.85315369604,
+   "lon": 0.53993532378,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WWI",
+   "name": "West Wickham",
+   "trains_on_day": 70,
+   "fastest_minutes": 35,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.38130142586,
+   "lon": -0.01443186658,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WSB",
+   "name": "Westbury Wilts",
+   "trains_on_day": 3,
+   "fastest_minutes": 121,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "WCB",
+   "name": "Westcombe Park",
+   "trains_on_day": 2,
+   "fastest_minutes": 71,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.48420270135,
+   "lon": 0.01839473787,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WHA",
+   "name": "Westenhanger",
+   "trains_on_day": 19,
+   "fastest_minutes": 85,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.09496084962,
+   "lon": 1.03804967446,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WYB",
+   "name": "Weybridge",
+   "trains_on_day": 104,
+   "fastest_minutes": 27,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "ambiguous"
+  },
+  {
+   "crs": "WEY",
+   "name": "Weymouth",
+   "trains_on_day": 58,
+   "fastest_minutes": 161,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.61531497368,
+   "lon": -2.45422196028,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WHM",
+   "name": "Whimple",
+   "trains_on_day": 15,
+   "fastest_minutes": 182,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.76802775713,
+   "lon": -3.35432205714,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WCH",
+   "name": "Whitchurch (Hampshire)",
+   "trains_on_day": 39,
+   "fastest_minutes": 57,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "ambiguous"
+  },
+  {
+   "crs": "WTN",
+   "name": "Whitton",
+   "trains_on_day": 73,
+   "fastest_minutes": 26,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.44960728551,
+   "lon": -0.35768133756,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WPK",
+   "name": "Wimbledon Park",
+   "trains_on_day": 8,
+   "fastest_minutes": null,
+   "operators": [
+    "SW"
+   ],
+   "lat": null,
+   "lon": null,
+   "coord_source": null,
+   "coord_confidence": "none"
+  },
+  {
+   "crs": "WIN",
+   "name": "Winchester",
+   "trains_on_day": 94,
+   "fastest_minutes": 56,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.06721063041,
+   "lon": -1.31969992631,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WNF",
+   "name": "Winchfield",
+   "trains_on_day": 34,
+   "fastest_minutes": 48,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.28495008957,
+   "lon": -0.90697732493,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WNR",
+   "name": "Windsor & Eton Riverside",
+   "trains_on_day": 39,
+   "fastest_minutes": 55,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.48565014811,
+   "lon": -0.60653398343,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WNS",
+   "name": "Winnersh",
+   "trains_on_day": 36,
+   "fastest_minutes": 72,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.43028256048,
+   "lon": -0.87685854477,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WTI",
+   "name": "Winnersh Triangle",
+   "trains_on_day": 36,
+   "fastest_minutes": 74,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.43674164165,
+   "lon": -0.89133159806,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WTY",
+   "name": "Witley",
+   "trains_on_day": 28,
+   "fastest_minutes": 50,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.13316197752,
+   "lon": -0.64578296622,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WOK",
+   "name": "Woking",
+   "trains_on_day": 314,
+   "fastest_minutes": 23,
+   "operators": [
+    "SW",
+    "ZZ"
+   ],
+   "lat": 51.31846934954,
+   "lon": -0.55695962081,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WKM",
+   "name": "Wokingham",
+   "trains_on_day": 39,
+   "fastest_minutes": 67,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.41121849935,
+   "lon": -0.84254317445,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WOO",
+   "name": "Wool",
+   "trains_on_day": 58,
+   "fastest_minutes": 139,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.68163782656,
+   "lon": -2.22145985797,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WLS",
+   "name": "Woolston",
+   "trains_on_day": 2,
+   "fastest_minutes": 146,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.89892325866,
+   "lon": -1.37705781935,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WWA",
+   "name": "Woolwich Arsenal",
+   "trains_on_day": 2,
+   "fastest_minutes": 62,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.48990893607,
+   "lon": 0.06919399379,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WCP",
+   "name": "Worcester Park",
+   "trains_on_day": 41,
+   "fastest_minutes": 22,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.3812525571,
+   "lon": -0.24516723224,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WPL",
+   "name": "Worplesdon",
+   "trains_on_day": 24,
+   "fastest_minutes": 29,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.28901745228,
+   "lon": -0.58257813221,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WRY",
+   "name": "Wraysbury",
+   "trains_on_day": 39,
+   "fastest_minutes": 43,
+   "operators": [
+    "SW"
+   ],
+   "lat": 51.45770836997,
+   "lon": -0.54192182359,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "WYE",
+   "name": "Wye",
+   "trains_on_day": 15,
+   "fastest_minutes": 86,
+   "operators": [
+    "SE"
+   ],
+   "lat": 51.18501180503,
+   "lon": 0.92930381127,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  },
+  {
+   "crs": "YVP",
+   "name": "Yeovil Pen Mill",
+   "trains_on_day": 6,
+   "fastest_minutes": 149,
+   "operators": [
+    "SW"
+   ],
+   "lat": 50.94452663922,
+   "lon": -2.61342815484,
+   "coord_source": "NaPTAN (DfT), matched by name",
+   "coord_confidence": "exact"
+  }
+ ],
+ "coordinates": {
+  "source": "DfT NaPTAN national stops CSV (Stops.csv, downloaded 16 Nov 2026), rail stop type RLY, matched by station name",
+  "matched": 269,
+  "unmatched": [
+   "Abbey Wood",
+   "Allbrook",
+   "Bentley",
+   "Cannon Street London",
+   "Charing Cross London",
+   "East Putney",
+   "Folkstone East",
+   "Fratton Portsmouth",
+   "Gravesend Central",
+   "Greenhithe",
+   "Hilsea Portsmouth",
+   "Kensington Olympia",
+   "London Road Guildford",
+   "Plumstead London",
+   "Reading Platforms 4A&B",
+   "Redbridge Hants",
+   "Southampton Airport (Parkway)",
+   "St Leonards W S",
+   "St Margarets (Greater London)",
+   "Westbury Wilts",
+   "Weybridge",
+   "Whitchurch (Hampshire)",
+   "Wimbledon Park"
+  ]
+ }
+}
