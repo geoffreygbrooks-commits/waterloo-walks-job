@@ -8,7 +8,7 @@ Walking-area filtering (OpenRouteService) is added once the extract step works.
 import json, os, subprocess, sys, datetime, pathlib, urllib.request
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-EXTRACT_URL = "https://download.geofabrik.de/europe/great-britain/england-latest.osm.pbf"
+EXTRACT_URL = "https://download.geofabrik.de/europe/united-kingdom/england-latest.osm.pbf"
 WORK = ROOT / "work"
 OUT = ROOT / "data" / "walks"
 
