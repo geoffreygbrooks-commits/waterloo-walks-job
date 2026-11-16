@@ -1,1 +1,18 @@
-{"station": "Weymouth", "crs": "WEY", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Weymouth",
+ "crs": "WEY",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "King Charles III England Coast Path: Portland to Lulworth",
+   "ref": "ECP",
+   "km_from_station": 4.6
+  },
+  {
+   "name": "South West Coast Path (Section 48: Abbotsbury to Ferrybridge)",
+   "ref": "SWCP",
+   "km_from_station": 5.4
+  }
+ ]
+}

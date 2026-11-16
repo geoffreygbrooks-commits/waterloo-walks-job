@@ -1,1 +1,38 @@
-{"station": "Wareham", "crs": "WRM", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Wareham",
+ "crs": "WRM",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Poole Harbour Trails 4",
+   "ref": "4",
+   "km_from_station": 0.8
+  },
+  {
+   "name": "The Hardy Way",
+   "ref": "",
+   "km_from_station": 4.3
+  },
+  {
+   "name": "Poole Harbour Trails 3",
+   "ref": "3",
+   "km_from_station": 4.3
+  },
+  {
+   "name": "Purbeck Way",
+   "ref": "",
+   "km_from_station": 4.6
+  },
+  {
+   "name": "Cordite Way",
+   "ref": "",
+   "km_from_station": 4.9
+  },
+  {
+   "name": "Wareham Forest Way",
+   "ref": "",
+   "km_from_station": 5.4
+  }
+ ]
+}

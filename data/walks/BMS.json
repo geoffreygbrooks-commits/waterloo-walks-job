@@ -1,1 +1,23 @@
-{"station": "Bromley South", "crs": "BMS", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Bromley South",
+ "crs": "BMS",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Three Commons",
+   "ref": "",
+   "km_from_station": 3.8
+  },
+  {
+   "name": "The Ravensbourne Trail",
+   "ref": "",
+   "km_from_station": 4.3
+  },
+  {
+   "name": "Southwark Cathedral to Otford",
+   "ref": "",
+   "km_from_station": 4.7
+  }
+ ]
+}

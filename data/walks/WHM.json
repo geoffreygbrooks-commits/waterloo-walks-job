@@ -1,1 +1,38 @@
-{"station": "Whimple", "crs": "WHM", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Whimple",
+ "crs": "WHM",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Exeter to Honiton Way",
+   "ref": "EXHON",
+   "km_from_station": 0.9
+  },
+  {
+   "name": "Rockbeare Circular",
+   "ref": "ROC",
+   "km_from_station": 3.8
+  },
+  {
+   "name": "Ashclyst Red Walk",
+   "ref": "ARED",
+   "km_from_station": 4.5
+  },
+  {
+   "name": "Ashclyst Purple Walk",
+   "ref": "APURPLE",
+   "km_from_station": 4.8
+  },
+  {
+   "name": "Ashclyst Yellow Walk",
+   "ref": "AYELLOW",
+   "km_from_station": 5.1
+  },
+  {
+   "name": "Ashclyst Green Walk",
+   "ref": "AGREEN",
+   "km_from_station": 5.4
+  }
+ ]
+}

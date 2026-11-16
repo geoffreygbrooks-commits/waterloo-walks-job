@@ -1,1 +1,23 @@
-{"station": "Worcester Park", "crs": "WCP", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Worcester Park",
+ "crs": "WCP",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "A suburban oasis: Morden Hall Park walk, Morden",
+   "ref": "",
+   "km_from_station": 4.7
+  },
+  {
+   "name": "Thames Down Link",
+   "ref": "TDL",
+   "km_from_station": 4.8
+  },
+  {
+   "name": "Wandle Trail",
+   "ref": "",
+   "km_from_station": 5.8
+  }
+ ]
+}

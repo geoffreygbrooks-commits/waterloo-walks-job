@@ -1,1 +1,38 @@
-{"station": "Bedhampton", "crs": "BDH", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Bedhampton",
+ "crs": "BDH",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Havant Footpath 34",
+   "ref": "",
+   "km_from_station": 0.4
+  },
+  {
+   "name": "Havant Footpath 35",
+   "ref": "",
+   "km_from_station": 0.4
+  },
+  {
+   "name": "Havant Footpath 506",
+   "ref": "",
+   "km_from_station": 0.8
+  },
+  {
+   "name": "Havant Footpath 30",
+   "ref": "",
+   "km_from_station": 0.9
+  },
+  {
+   "name": "Havant Footpath 33",
+   "ref": "",
+   "km_from_station": 0.9
+  },
+  {
+   "name": "King Charles III England Coast Path: Portsmouth to East Head: Southmoor Alt Route",
+   "ref": "ECP",
+   "km_from_station": 1.3
+  }
+ ]
+}

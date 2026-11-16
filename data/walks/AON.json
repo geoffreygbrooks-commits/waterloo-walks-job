@@ -1,1 +1,23 @@
-{"station": "Alton", "crs": "AON", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Alton",
+ "crs": "AON",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Yarnhams Farm",
+   "ref": "",
+   "km_from_station": 4.9
+  },
+  {
+   "name": "St Swithun's Way",
+   "ref": "",
+   "km_from_station": 5.3
+  },
+  {
+   "name": "Food and Farming Trails",
+   "ref": "Mill Farm Trail",
+   "km_from_station": 5.7
+  }
+ ]
+}

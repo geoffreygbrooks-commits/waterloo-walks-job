@@ -1,1 +1,38 @@
-{"station": "Woolston", "crs": "WLS", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Woolston",
+ "crs": "WLS",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Bargeman's Walk",
+   "ref": "",
+   "km_from_station": 4.3
+  },
+  {
+   "name": "Hamble Rail Trail Route",
+   "ref": "",
+   "km_from_station": 5.0
+  },
+  {
+   "name": "Strawberry Trail",
+   "ref": "",
+   "km_from_station": 5.2
+  },
+  {
+   "name": "Woods and Meadows Walk",
+   "ref": "",
+   "km_from_station": 5.3
+  },
+  {
+   "name": "Meadow Nature Trail",
+   "ref": "",
+   "km_from_station": 5.4
+  },
+  {
+   "name": "Forest Trail",
+   "ref": "",
+   "km_from_station": 5.7
+  }
+ ]
+}

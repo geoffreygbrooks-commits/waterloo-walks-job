@@ -1,1 +1,28 @@
-{"station": "Ash Vale", "crs": "AHV", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Ash Vale",
+ "crs": "AHV",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Cove Brook Greenway, Farnborough",
+   "ref": "",
+   "km_from_station": 4.9
+  },
+  {
+   "name": "Basingstoke Canal",
+   "ref": "",
+   "km_from_station": 5.4
+  },
+  {
+   "name": "Blackwater Valley Path",
+   "ref": "",
+   "km_from_station": 5.7
+  },
+  {
+   "name": "Pirbright walk (SCC)",
+   "ref": "",
+   "km_from_station": 5.8
+  }
+ ]
+}

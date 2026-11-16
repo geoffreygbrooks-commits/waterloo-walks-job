@@ -1,1 +1,18 @@
-{"station": "Martin Mill", "crs": "MTM", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Martin Mill",
+ "crs": "MTM",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "King Charles III England Coast Path: Folkestone to Ramsgate",
+   "ref": "ECP",
+   "km_from_station": 2.7
+  },
+  {
+   "name": "European walking route E2, UK, Dover-Calais ferry",
+   "ref": "E2",
+   "km_from_station": 5.9
+  }
+ ]
+}

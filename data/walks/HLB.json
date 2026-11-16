@@ -1,1 +1,23 @@
-{"station": "Hildenborough", "crs": "HLB", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Hildenborough",
+ "crs": "HLB",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Ightham Mote Circular Walk to Wilmot Hill, Ightham Mote",
+   "ref": "",
+   "km_from_station": 5.4
+  },
+  {
+   "name": "Ightham Mote Circular Walk to Knole, Ightham Mote",
+   "ref": "",
+   "km_from_station": 5.4
+  },
+  {
+   "name": "Ightham Mote Circular Walk to Shipbourne and Fairlawne, Ightham Mote",
+   "ref": "",
+   "km_from_station": 5.8
+  }
+ ]
+}

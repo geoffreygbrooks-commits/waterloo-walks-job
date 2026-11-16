@@ -1,1 +1,38 @@
-{"station": "Witley", "crs": "WTY", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Witley",
+ "crs": "WTY",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Winkworth to Oakhurst Wonder Walk, Winkworth",
+   "ref": "",
+   "km_from_station": 3.3
+  },
+  {
+   "name": "Octavia Hill Walk around Hydon's Ball and Heath, Hindhead",
+   "ref": "",
+   "km_from_station": 3.5
+  },
+  {
+   "name": "Grayswood walk (SCC)",
+   "ref": "",
+   "km_from_station": 4.8
+  },
+  {
+   "name": "Roam 639 Walk at Hindhead Commons and the Devil's Punch Bowl, Hindhead",
+   "ref": "",
+   "km_from_station": 5.7
+  },
+  {
+   "name": "Hidden Hindhead Walking Trail, Hindhead",
+   "ref": "",
+   "km_from_station": 5.7
+  },
+  {
+   "name": "Sailor's Stroll Walk at Hindhead Commons",
+   "ref": "",
+   "km_from_station": 5.9
+  }
+ ]
+}

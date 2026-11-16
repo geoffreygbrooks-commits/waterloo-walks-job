@@ -1,1 +1,18 @@
-{"station": "Hinton Admiral", "crs": "HNA", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Hinton Admiral",
+ "crs": "HNA",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "West Lane",
+   "ref": "br-710",
+   "km_from_station": 3.6
+  },
+  {
+   "name": "Christchurch Bay Way",
+   "ref": "",
+   "km_from_station": 3.9
+  }
+ ]
+}

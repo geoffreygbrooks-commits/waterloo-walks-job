@@ -1,1 +1,38 @@
-{"station": "Leatherhead", "crs": "LHD", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Leatherhead",
+ "crs": "LHD",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Norbury Park walk (SCC)",
+   "ref": "",
+   "km_from_station": 2.3
+  },
+  {
+   "name": "Norbury Park Off Road Cycle & Walk (SCC)",
+   "ref": "",
+   "km_from_station": 3.2
+  },
+  {
+   "name": "Mole Gap Trail",
+   "ref": "",
+   "km_from_station": 3.5
+  },
+  {
+   "name": "Heathland Trail (Headley Heath NT)",
+   "ref": "",
+   "km_from_station": 5.0
+  },
+  {
+   "name": "Effingham walk (SCC)",
+   "ref": "",
+   "km_from_station": 5.2
+  },
+  {
+   "name": "Polesden Lacey Butterfly Walk, Polesden Lacey",
+   "ref": "",
+   "km_from_station": 5.2
+  }
+ ]
+}

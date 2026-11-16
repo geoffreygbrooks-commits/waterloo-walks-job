@@ -1,1 +1,38 @@
-{"station": "Havant", "crs": "HAV", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Havant",
+ "crs": "HAV",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Havant Footpath 506",
+   "ref": "",
+   "km_from_station": 0.9
+  },
+  {
+   "name": "Havant Footpath 33",
+   "ref": "",
+   "km_from_station": 1.0
+  },
+  {
+   "name": "Havant Footpath 35",
+   "ref": "",
+   "km_from_station": 1.1
+  },
+  {
+   "name": "King Charles III England Coast Path: South Hayling to East Head: Alt Route via Warblington",
+   "ref": "ECP",
+   "km_from_station": 1.1
+  },
+  {
+   "name": "Havant Footpath 34",
+   "ref": "",
+   "km_from_station": 1.3
+  },
+  {
+   "name": "Havant Footpath 506",
+   "ref": "",
+   "km_from_station": 1.4
+  }
+ ]
+}

@@ -1,1 +1,38 @@
-{"station": "Box Hill & Westhumble", "crs": "BXW", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Box Hill & Westhumble",
+ "crs": "BXW",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Mole Gap Trail",
+   "ref": "",
+   "km_from_station": 1.5
+  },
+  {
+   "name": "Ranmore Circular (SCC)",
+   "ref": "",
+   "km_from_station": 1.5
+  },
+  {
+   "name": "Denbies Hillside Train Walk, North Downs West",
+   "ref": "",
+   "km_from_station": 2.1
+  },
+  {
+   "name": "Norbury Park Off Road Cycle & Walk (SCC)",
+   "ref": "",
+   "km_from_station": 2.3
+  },
+  {
+   "name": "Polesden Lacey Butterfly Walk, Polesden Lacey",
+   "ref": "",
+   "km_from_station": 2.5
+  },
+  {
+   "name": "Norbury Park walk (SCC)",
+   "ref": "",
+   "km_from_station": 2.8
+  }
+ ]
+}

@@ -1,1 +1,38 @@
-{"station": "Tunbridge Wells", "crs": "TBW", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Tunbridge Wells",
+ "crs": "TBW",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Tunbridge Wells Circular Walk (Hawkenbury Link)",
+   "ref": "",
+   "km_from_station": 0.7
+  },
+  {
+   "name": "Tunbridge Wells Circular Walk",
+   "ref": "",
+   "km_from_station": 1.0
+  },
+  {
+   "name": "Tunbridge Wells Circular Walk (Speldhurst Link)",
+   "ref": "",
+   "km_from_station": 1.9
+  },
+  {
+   "name": "Tunbridge Wells Circular Walk (Groombridge Link)",
+   "ref": "",
+   "km_from_station": 2.6
+  },
+  {
+   "name": "Wealdway",
+   "ref": "",
+   "km_from_station": 3.1
+  },
+  {
+   "name": "Tunbridge Wells Circular Walk - High Brooms link",
+   "ref": "",
+   "km_from_station": 3.1
+  }
+ ]
+}

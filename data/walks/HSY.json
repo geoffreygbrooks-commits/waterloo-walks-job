@@ -1,1 +1,38 @@
-{"station": "Horsley", "crs": "HSY", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Horsley",
+ "crs": "HSY",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Horsley Jubilee Trail",
+   "ref": "",
+   "km_from_station": 0.8
+  },
+  {
+   "name": "Effingham walk (SCC)",
+   "ref": "",
+   "km_from_station": 2.3
+  },
+  {
+   "name": "Lovelace Bridges Trail",
+   "ref": "",
+   "km_from_station": 3.4
+  },
+  {
+   "name": "Prospects of Polesden (SCC)",
+   "ref": "",
+   "km_from_station": 5.4
+  },
+  {
+   "name": "Polesden Lacey Ranger Run, Polesden Lacey",
+   "ref": "",
+   "km_from_station": 5.4
+  },
+  {
+   "name": "Polesden Lacey Butterfly Walk, Polesden Lacey",
+   "ref": "",
+   "km_from_station": 5.5
+  }
+ ]
+}

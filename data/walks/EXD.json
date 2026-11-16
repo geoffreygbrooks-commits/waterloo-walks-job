@@ -1,1 +1,38 @@
-{"station": "Exeter St Davids", "crs": "EXD", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Exeter St Davids",
+ "crs": "EXD",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "University Sculpture Walk",
+   "ref": "USW",
+   "km_from_station": 0.9
+  },
+  {
+   "name": "Exeter City Wall Trail",
+   "ref": "ECWT",
+   "km_from_station": 1.1
+  },
+  {
+   "name": "Exeter Woollen Trail",
+   "ref": "EWT",
+   "km_from_station": 1.3
+  },
+  {
+   "name": "Exeter Green Circle",
+   "ref": "EGC",
+   "km_from_station": 1.6
+  },
+  {
+   "name": "Tommy Cooper Trail",
+   "ref": "TCT",
+   "km_from_station": 1.8
+  },
+  {
+   "name": "Alphinbrook & Hambeer Lane",
+   "ref": "AHL",
+   "km_from_station": 2.7
+  }
+ ]
+}

@@ -1,1 +1,33 @@
-{"station": "Portsmouth & Southsea", "crs": "PMS", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Portsmouth & Southsea",
+ "crs": "PMS",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "King Charles III England Coast Path: Gosport to Portsmouth",
+   "ref": "ECP",
+   "km_from_station": 3.2
+  },
+  {
+   "name": "King Charles III England Coast Path: Portsmouth to South Hayling:: E9 Alt Route",
+   "ref": "ECP",
+   "km_from_station": 3.3
+  },
+  {
+   "name": "King Charles III England Coast Path: Portsmouth to South Hayling: Fort Cumberland Alt Route",
+   "ref": "ECP",
+   "km_from_station": 4.2
+  },
+  {
+   "name": "King Charles III England Coast Path: Portsmouth to South Hayling",
+   "ref": "ECP",
+   "km_from_station": 5.0
+  },
+  {
+   "name": "Langstone Harbour Waterside Route",
+   "ref": "",
+   "km_from_station": 5.7
+  }
+ ]
+}

@@ -1,1 +1,38 @@
-{"station": "Poole", "crs": "POO", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Poole",
+ "crs": "POO",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Poole Harbour Trails 6",
+   "ref": "6",
+   "km_from_station": 1.7
+  },
+  {
+   "name": "Poole Harbour Trails 1",
+   "ref": "1",
+   "km_from_station": 3.6
+  },
+  {
+   "name": "Poole Coast Path",
+   "ref": "",
+   "km_from_station": 4.8
+  },
+  {
+   "name": "Cordite Way",
+   "ref": "",
+   "km_from_station": 5.3
+  },
+  {
+   "name": "Poole Harbour Trails 5b",
+   "ref": "5b",
+   "km_from_station": 5.7
+  },
+  {
+   "name": "Bourne Valley Greenway walk",
+   "ref": "BVG",
+   "km_from_station": 5.7
+  }
+ ]
+}

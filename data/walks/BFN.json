@@ -1,1 +1,23 @@
-{"station": "Byfleet & New Haw", "crs": "BFN", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Byfleet & New Haw",
+ "crs": "BFN",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Locks and Levels (SCC)",
+   "ref": "",
+   "km_from_station": 1.8
+  },
+  {
+   "name": "Canons and Cornmills",
+   "ref": "",
+   "km_from_station": 4.4
+  },
+  {
+   "name": "Thames Path - alternate",
+   "ref": "TPalt",
+   "km_from_station": 5.0
+  }
+ ]
+}

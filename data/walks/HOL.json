@@ -1,1 +1,38 @@
-{"station": "Holton Heath", "crs": "HOL", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Holton Heath",
+ "crs": "HOL",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Cordite Way",
+   "ref": "",
+   "km_from_station": 1.6
+  },
+  {
+   "name": "Poole Harbour Trails 5b",
+   "ref": "5b",
+   "km_from_station": 2.1
+  },
+  {
+   "name": "Poole Harbour Trails 4",
+   "ref": "4",
+   "km_from_station": 2.6
+  },
+  {
+   "name": "Wareham Forest Way",
+   "ref": "",
+   "km_from_station": 4.4
+  },
+  {
+   "name": "The Hardy Way",
+   "ref": "",
+   "km_from_station": 4.5
+  },
+  {
+   "name": "Poole Harbour Trails 3",
+   "ref": "3",
+   "km_from_station": 5.1
+  }
+ ]
+}

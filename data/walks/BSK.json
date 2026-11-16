@@ -1,1 +1,23 @@
-{"station": "Basingstoke", "crs": "BSK", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Basingstoke",
+ "crs": "BSK",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Basing Wood",
+   "ref": "Blue Trail",
+   "km_from_station": 2.7
+  },
+  {
+   "name": "Basing Wood Red Trail",
+   "ref": "Red Trail",
+   "km_from_station": 2.8
+  },
+  {
+   "name": "Great Binfield,Basingstoke",
+   "ref": "GBB",
+   "km_from_station": 2.9
+  }
+ ]
+}

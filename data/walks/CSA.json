@@ -1,1 +1,38 @@
-{"station": "Cosham", "crs": "CSA", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Cosham",
+ "crs": "CSA",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "King Charles III England Coast Path: Portsmouth to South Hayling",
+   "ref": "ECP",
+   "km_from_station": 4.4
+  },
+  {
+   "name": "Langstone Harbour Waterside Route",
+   "ref": "",
+   "km_from_station": 4.5
+  },
+  {
+   "name": "Havant Footpath 30",
+   "ref": "",
+   "km_from_station": 4.6
+  },
+  {
+   "name": "Havant Footpath 34",
+   "ref": "",
+   "km_from_station": 4.9
+  },
+  {
+   "name": "King Charles III England Coast Path: Gosport to Portsmouth",
+   "ref": "ECP",
+   "km_from_station": 5.1
+  },
+  {
+   "name": "Havant Footpath 35",
+   "ref": "",
+   "km_from_station": 5.1
+  }
+ ]
+}

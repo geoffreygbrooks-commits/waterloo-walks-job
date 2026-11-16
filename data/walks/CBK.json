@@ -1,1 +1,38 @@
-{"station": "Cranbrook", "crs": "CBK", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Cranbrook",
+ "crs": "CBK",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Rockbeare Circular",
+   "ref": "ROC",
+   "km_from_station": 3.1
+  },
+  {
+   "name": "Ashclyst Red Walk",
+   "ref": "ARED",
+   "km_from_station": 3.8
+  },
+  {
+   "name": "Ashclyst Yellow Walk",
+   "ref": "AYELLOW",
+   "km_from_station": 3.9
+  },
+  {
+   "name": "Ashclyst Purple Walk",
+   "ref": "APURPLE",
+   "km_from_station": 4.0
+  },
+  {
+   "name": "Pinhoe to Exeter Way",
+   "ref": "PEW",
+   "km_from_station": 4.2
+  },
+  {
+   "name": "Ashclyst Green Walk",
+   "ref": "AGREEN",
+   "km_from_station": 4.2
+  }
+ ]
+}

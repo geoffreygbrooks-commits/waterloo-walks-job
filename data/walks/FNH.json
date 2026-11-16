@@ -1,1 +1,33 @@
-{"station": "Farnham", "crs": "FNH", "generatedAt": "2026-11-16T18:17:29.546997Z", "note": "Trails from OpenStreetMap contributors (ODbL). Walking area coming next.", "trails": []}
+{
+ "station": "Farnham",
+ "crs": "FNH",
+ "generatedAt": "2026-11-16T19:10:50Z",
+ "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+ "trails": [
+  {
+   "name": "Medieval Waverley (SCC)",
+   "ref": "",
+   "km_from_station": 3.9
+  },
+  {
+   "name": "Alice Holt Forest: Habitat Trail",
+   "ref": "",
+   "km_from_station": 5.3
+  },
+  {
+   "name": "Alice Holt Forest: Lodge Pond Trail",
+   "ref": "",
+   "km_from_station": 5.3
+  },
+  {
+   "name": "Alice Holt Forest: Adaptation Trail",
+   "ref": "",
+   "km_from_station": 5.8
+  },
+  {
+   "name": "Alice Holt Forest: Willows Green Trail",
+   "ref": "",
+   "km_from_station": 6.0
+  }
+ ]
+}
