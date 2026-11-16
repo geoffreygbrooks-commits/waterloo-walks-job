@@ -5,9 +5,11 @@
 3. pyosmium reads that small file, and for each hiking route works out a centre point.
 4. For each station with a map position, keep the 6 nearest routes within 6 km.
 5. Write data/walks/<CRS>.json.
-The walking-time filter (OpenRouteService) is added later.
+6. If ORS_API_KEY is set, OpenRouteService gives the area reachable on foot within WALK_MINUTES
+   of each station; routes whose centre is outside that area are dropped. Without the key,
+   or if ORS fails for a station, the distance-only list is kept.
 """
-import json, math, pathlib, subprocess, sys, datetime, urllib.request
+import json, math, os, pathlib, subprocess, sys, datetime, urllib.request
 import osmium
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -18,6 +20,40 @@ RADIUS_KM = 6.0
 WIDE_RADIUS_KM = 12.0   # used only where fewer than MIN_TRAILS routes are within RADIUS_KM
 MIN_TRAILS = 3
 MAX_TRAILS = 6
+WALK_MINUTES = 60   # walking time from the station used for the filter
+ORS_KEY = os.environ.get("ORS_API_KEY", "").strip()
+ORS_BASES = [os.environ.get("ORS_BASE_URL", "").strip(), "https://api.heigit.org", "https://api.openrouteservice.org"]
+
+
+def walk_area(lon, lat):
+    """Return the outer ring [(lon, lat), ...] of the area reachable on foot, or None."""
+    if not ORS_KEY:
+        return None
+    body = json.dumps({"locations": [[lon, lat]], "range": [WALK_MINUTES * 60], "range_type": "time"}).encode()
+    for base in [b for b in ORS_BASES if b]:
+        try:
+            req = urllib.request.Request(base.rstrip("/") + "/v2/isochrones/foot-walking", data=body, method="POST",
+                                         headers={"Authorization": ORS_KEY, "Content-Type": "application/json",
+                                                  "Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=30) as r:
+                data = json.loads(r.read().decode())
+            return data["features"][0]["geometry"]["coordinates"][0]
+        except Exception as e:
+            print("ORS", base, lon, lat, e, flush=True)
+    return None
+
+
+def inside(lon, lat, ring):
+    """Ray-casting point-in-polygon test."""
+    flag = False
+    j = len(ring) - 1
+    for i in range(len(ring)):
+        xi, yi = ring[i]
+        xj, yj = ring[j]
+        if (yi > lat) != (yj > lat) and lon < (xj - xi) * (lat - yi) / (yj - yi) + xi:
+            flag = not flag
+        j = i
+    return flag
 
 
 class HikingHandler(osmium.SimpleHandler):
@@ -94,10 +130,21 @@ def main():
         if len(near) < MIN_TRAILS:
             near = find(WIDE_RADIUS_KM, 0.13, 0.22)
             radius_used = WIDE_RADIUS_KM
+        walk_note = "walking time not applied"
+        ring = walk_area(s["lon"], s["lat"])
+        if ring:
+            by_key = {(name, ref): (lon, lat) for rid, (lon, lat, name, ref, npts) in centres.items()}
+            kept = []
+            for t in near:
+                c = by_key.get((t["name"], t["ref"]))
+                if c and inside(c[0], c[1], ring):
+                    kept.append(t)
+            near = kept
+            walk_note = f"walking time applied ({WALK_MINUTES} min on foot)"
         trails = near[:MAX_TRAILS]
         total += len(trails)
         out = {"station": s["name"], "crs": s["crs"], "generatedAt": generated,
-               "note": f"Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within {radius_used:g} km; walking time not yet applied.",
+               "note": f"Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within {radius_used:g} km; {walk_note}.",
                "trails": trails}
         (OUT / f"{s['crs']}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
     print(f"Written {OUT}; {total} trails in total", flush=True)
