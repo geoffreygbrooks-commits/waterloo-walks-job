@@ -15,6 +15,8 @@ EXTRACT_URL = "https://download.geofabrik.de/europe/united-kingdom/england-lates
 WORK = ROOT / "work"
 OUT = ROOT / "data" / "walks"
 RADIUS_KM = 6.0
+WIDE_RADIUS_KM = 12.0   # used only where fewer than MIN_TRAILS routes are within RADIUS_KM
+MIN_TRAILS = 3
 MAX_TRAILS = 6
 
 
@@ -77,18 +79,25 @@ def main():
     for s in stations:
         if s.get("lat") is None or s.get("lon") is None:
             continue
-        near = []
-        for rid, (lon, lat, name, ref, npts) in centres.items():
-            if abs(lat - s["lat"]) > 0.06 or abs(lon - s["lon"]) > 0.1:
-                continue  # quick box check before the distance
-            d = haversine_km(s["lon"], s["lat"], lon, lat)
-            if d <= RADIUS_KM:
-                near.append({"name": name, "ref": ref, "km_from_station": round(d, 1)})
-        near.sort(key=lambda x: x["km_from_station"])
+        def find(radius, box_lat, box_lon):
+            found = []
+            for rid, (lon, lat, name, ref, npts) in centres.items():
+                if abs(lat - s["lat"]) > box_lat or abs(lon - s["lon"]) > box_lon:
+                    continue  # quick box check before the distance
+                d = haversine_km(s["lon"], s["lat"], lon, lat)
+                if d <= radius:
+                    found.append({"name": name, "ref": ref, "km_from_station": round(d, 1)})
+            found.sort(key=lambda x: x["km_from_station"])
+            return found
+        near = find(RADIUS_KM, 0.06, 0.1)
+        radius_used = RADIUS_KM
+        if len(near) < MIN_TRAILS:
+            near = find(WIDE_RADIUS_KM, 0.13, 0.22)
+            radius_used = WIDE_RADIUS_KM
         trails = near[:MAX_TRAILS]
         total += len(trails)
         out = {"station": s["name"], "crs": s["crs"], "generatedAt": generated,
-               "note": "Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within 6 km; walking time not yet applied.",
+               "note": f"Hiking routes from OpenStreetMap contributors (ODbL). Nearest routes within {radius_used:g} km; walking time not yet applied.",
                "trails": trails}
         (OUT / f"{s['crs']}.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
     print(f"Written {OUT}; {total} trails in total", flush=True)
